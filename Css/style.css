@@ -1,0 +1,54 @@
+body{
+    background-image: url(../Img/background_pesquisa.jpeg);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(2px);
+}
+
+/* header */
+.menu-principal{
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.elementos-menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-menu {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.elementos-menu li {
+    margin-top: 20px;
+    margin-left: 25px;
+    list-style: none;
+}
+
+.elementos-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+/* main */
+.area-pesquisa {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    flex-direction: row;
+}
