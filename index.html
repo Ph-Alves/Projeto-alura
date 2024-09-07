@@ -30,7 +30,13 @@
         </section>
         <section class="area-pesquisa">
             <div class="input">
-                <input type="text" placeholder="Pesquise um boss, personagem ou item" class="input-pesquisa" id="campo-pesquisa"></input>
+                <select name="categoria" class="Tipo-pesquisa" id="categoriaPesquisa">
+                    <option value="Companheiros">Companheiros</option>
+                    <option value="NPCs">NPCs</option>
+                    <option value="inimigos">Inimigos</option>
+                    <option value="itens">Itens</option>
+                </select>
+                <input type="text" placeholder="Pesquise algum nome" class="input-pesquisa" id="campo-pesquisa"></input>
                 <button class="botao-pesquisa" onclick="pesquisar()">Pesquisar</button>
             </div>
         </section>
