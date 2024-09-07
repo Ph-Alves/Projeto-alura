@@ -2,7 +2,11 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-  }
+}
+
+p {
+    font-family: Montserrat;
+}
 
 /* main */
 main {
@@ -22,6 +26,7 @@ main {
 
 .area-informacao {
     width: 100%;
+    height: 550px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,20 +37,20 @@ main {
 
 .conteudo {
     padding: 20px;
-    width: 50%;
+    width: 70%;
     color: white;
 }
 
 .titulo-descricao {
     font-family: Montserrat;
-    font-size: 20px;
-    padding-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .texto-mundo {
     font-family: Montserrat;
     padding-top: 30px;
-    font-size: 15px;
+    font-size: 17px;
     text-align: justify;
 }
 
@@ -53,6 +58,8 @@ main {
     width: 650px;
     height: 450px;
     margin-left: 30px;
+    border: solid 3px #007bff;
+    box-shadow: 1px 1px 5px #007bff;
 }
 
 /* area de pesquisa (main) */
@@ -71,7 +78,7 @@ main {
 }
 
 .input-pesquisa {
-    margin-left: 20px;
+    margin: 20px;
     padding: 10px;
     font-size: 16px;
     width: 700px;
@@ -99,6 +106,47 @@ main {
     font-size: 16px;   
 }
 
+/* area de informação da pesquisa */
+
+.area-descricao {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.descricao-pesquisa {
+    padding: 20px;
+    width: 60%;
+    color: white;
+    font-family: Montserrat;
+    background-color: #011233;
+    border: solid 3px #007bff;
+    box-shadow: 1px 1px 5px #007bff;
+    border-radius: 15px;
+}
+
+.personagem {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.descricao-personagem {
+    padding-top: 30px;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.imagem-personagem {
+    width: 650px;
+    height: 400px;
+    margin-left: 30px;
+    border: solid 3px #007bff;
+    box-shadow: 1px 1px 5px #007bff;
+    margin-bottom: 30px;
+}
 
 /* footer */
 
@@ -108,6 +156,7 @@ footer {
     color: rgb(255, 255, 255);
     font-family: Montserrat;
     font-size: 14px;
+    font-weight: bold;
     padding-top: 15px;
     padding-bottom: 15px;
 }
